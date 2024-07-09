@@ -351,6 +351,65 @@ iframe{
     Font-weight:700;
     font-size:16px;
 }
-
 /* Target section ends */
+/* Target section starts */
+.support-section{
+    width:1240px;
+    height:500px;
+    border:1px solid white;
+    margin:0px auto;
+    background-image:url("../images/handshakere.jpg");
+    background-position: cover;
+    margin-bottom: 200px;
+    border-radius: 16px;
+}
+.support{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+.support h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.support p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+/* .support textarea{
+    width: 300px;
+    height: 30px;
+    padding:10px 50px 10px 30px;
+    border-radius: 16px;   
+} */
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn textarea{
+    width: 300px;
+    height: 30px;
+    padding:10px 50px 10px 30px;
+    border-radius: 8px; 
+}
+.btn input[type="button"]{
+    height: 50px;
+    width:90px;
+    border-radius: 8px;
+    border:none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 15px;
+    background-color: white;
+}
+/* Target section starts */
 /* Main section ends */
