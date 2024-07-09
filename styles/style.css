@@ -72,5 +72,120 @@ body{
     border:none;
 
 }
-
 /* BAnner section ends */
+/* Main section starts */
+/* Why web development section starts */
+.first-section-container{
+    width: 1240px;
+    height: 1040px;
+    margin:0px auto;
+    margin-bottom: 75px;
+    background-color:  rgba(13, 19, 33, 0.02);;
+}
+.all-content-container{
+    width: 1140px;
+    height: 1000px;
+    margin:70px auto 50px auto;
+}
+.first-section-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 38px;
+}
+.first-section-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+.first-section-content p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.first-section-img1{
+    height:280px;
+    width:100%;
+    border-radius: 16px;
+    background-color:white;
+}
+.img-section-content1{
+    height:250px;
+    width:95%;
+    margin:10px auto;
+    display:flex;
+    padding:10px; 
+    display: flex;
+    justify-content: space-between;                     
+}
+.img-section-writting1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.img-section-writting1 h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.img-section-writting1 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.img-section-writting1 button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 171px;
+    height: 47px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.img-section-writting1 button a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+.first-section-img2{
+    height:280px;
+    width:100%;
+    border-radius: 16px;
+    background-color:white;
+}
+.first-section-img3{
+    height:280px;
+    width:100%;
+    border-radius: 16px;
+    background-color:white;
+}
+.img-section-content2{
+
+    height:250px;
+    width:95%;
+    margin:10px auto;
+    display:flex;
+    padding:10px; 
+    display: flex;
+    justify-content:left;
+    gap:40px;                     
+
+}
+.img-section-content3{
+    height:250px;
+    width:95%;
+    margin:10px auto;
+    display:flex;
+}
+
+
+/* Why web development section ends */
+/* Main section ends */
