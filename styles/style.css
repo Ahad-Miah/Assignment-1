@@ -223,4 +223,134 @@ iframe{
     border-radius: 16px;
 }
 /* My inspiration section ends */
+/* Target section starts */
+.target-section-container{
+    width: 1240px;
+    height: 1470px;
+    margin:0px auto;
+    margin-bottom: 50px;
+}
+.my-current-target{
+    width: 1000px;
+    height: 113px;
+    margin:0px auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.my-current-target h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+.my-current-target p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.target-learning{
+    width:100%;
+    height:340px;
+    display:flex;
+    gap:19px;
+
+}
+.html{
+    width:32%;
+    height:340px;
+    border-radius: 16px;
+    background-color:rgba(255, 192, 203, 0.075);
+    display:flex;
+    flex-direction: column;
+   align-items:start;
+}
+.html img{
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.html h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 30px;
+    margin-bottom: 18px;
+}
+.html p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.html a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+#css{
+    background-color:rgba(0, 76, 232, 0.05)
+}
+.my-next-target{
+    width:100%;
+    height: 866px;
+    margin-top: 100px;
+}
+.next-target{
+    width: 946px;
+    height: 113px;
+    margin:0px auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.next-target h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.next-target p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.target-of-frame{
+    width:100%;
+    height:235px;
+    display:flex;
+    align-items: center;
+    gap:80px;
+    border:1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+.target-of-frame img{
+    margin-left: 90px;
+}
+.target-of-frame h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.target-of-frame p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.target-of-frame a{
+    color: rgb(13, 19, 33);
+    Font-weight:700;
+    font-size:16px;
+}
+
+/* Target section ends */
 /* Main section ends */
