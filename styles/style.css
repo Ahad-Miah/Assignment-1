@@ -419,7 +419,6 @@ iframe{
 .contact{
     width:1345px;
     height:100px;
-    border:2px solid red;
     border-radius: 16px;
     background-color:  rgba(13, 19, 33, 0.055);
     display:flex;
