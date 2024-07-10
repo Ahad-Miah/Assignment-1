@@ -32,7 +32,7 @@ body{
 /* nav section ends */
 /* Banner section start */
 .banner-section-container{
-    width: 1345px;
+    max-width: 1345px;
     height: 652px;
     background-image: url("../images/Hero-bg.png");
     margin-bottom: 70px;
@@ -79,7 +79,7 @@ body{
 /* Main section starts */
 /* Why web development section starts */
 .first-section-container{
-    width: 1240px;
+    max-width: 1240px;
     height: 1040px;
     margin:0px auto;
     margin-bottom: 75px;
@@ -192,7 +192,7 @@ body{
 /* Why web development section ends */
 /* My inspiration section starts */
 .second-section-container{
-    width: 1240px;
+    max-width: 1240px;
     height: 800px;
     margin:0px auto;
     margin-bottom: 120px;
@@ -228,7 +228,7 @@ iframe{
 /* My inspiration section ends */
 /* Target section starts */
 .target-section-container{
-    width: 1240px;
+    max-width: 1240px;
     height: 1470px;
     margin:0px auto;
     margin-bottom: 50px;
@@ -357,11 +357,12 @@ iframe{
 /* Target section ends */
 /* Target section starts */
 .support-section{
-    width:1240px;
+    max-width:1240px;
     height:500px;
     border:1px solid white;
     margin:0px auto;
-    background-image:url("../images/handshakere.jpg");
+    background-image:linear-gradient(360.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+    url("../images/handshakere.jpg");
     background-position: cover;
     margin-bottom: 50px;
     border-radius: 16px;
@@ -417,7 +418,7 @@ iframe{
 /* Target section ends */
 /* footer section starts */
 .contact{
-    width:1345px;
+    max-width:1345px;
     height:100px;
     border-radius: 16px;
     background-color:  rgba(13, 19, 33, 0.055);
